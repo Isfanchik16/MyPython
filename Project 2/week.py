@@ -14,4 +14,4 @@ elif week == 6:
 elif week == 7:
     print("Sunday")
 else:
-    print("Please Enter from 1 to 7 numbers. Thanks!")
+    print("Please Enter a number from 1 to 7. Thanks!")
