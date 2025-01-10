@@ -1,4 +1,4 @@
-def ele_list(lenght):
+def elem_list(lenght):
     res=[]
     i=0
     while i<lenght:
@@ -7,4 +7,4 @@ def ele_list(lenght):
         i+=1
     return res
 lenght=int(input("Enter lenght of the list : "))
-print(ele_list(lenght))
+print(elem_list(lenght))
