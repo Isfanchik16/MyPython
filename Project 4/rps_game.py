@@ -57,5 +57,4 @@ if options[my_choice] in options:
            Y    O   O  U   U       L      O   O      S  E    |
            Y     OOO    UUU        LLLLL   OOO   SSS   EEEEE .
 """)
-else:
-    print("Please enter a number (0-2)!")
+
