@@ -42,7 +42,7 @@ if options[my_choice] in options:
                                          
     """)
     elif (my_choice==0 and comp_choice==scissor) or (my_choice==1 and comp_choice==rock) or (my_choice==2 and comp_choice==paper):
-        print(""" The outcome is
+        print(""" 
          Y   Y   OOO   U   U     W   W   OOO   N   N  |
           Y Y   O   O  U   U     W   W  O   O  NN  N  |
            Y    O   O  U   U     W W W  O   O  N N N  |
@@ -50,7 +50,7 @@ if options[my_choice] in options:
            Y     OOO    UUU      W   W   OOO   N   N  .
     """)
     else:
-         print(""" The outcome is
+         print(""" 
          Y   Y   OOO   U   U       L       OOO   SSS   EEEEE |
           Y Y   O   O  U   U       L      O   O  S      E    |
            Y    O   O  U   U       L      O   O   SSS   EEEE |
