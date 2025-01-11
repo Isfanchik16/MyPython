@@ -27,7 +27,7 @@ scissors = '''
 
 options = [rock,paper,scissors]
 my_choice = int(input('''Welcome to the game : Rock , Paper , Scissors And now.
-Your choice, Please chose: Rock (0), Paper (1), Scissors (2) >>'''))
+Your choice, Please choose: Rock (0), Paper (1), Scissors (2) >>'''))
 print(f"Your choice is {options[my_choice]}")
 comp_choice = random.choice(options)
 print(f"Computer choice is {comp_choice}")
