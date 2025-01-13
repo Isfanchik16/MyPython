@@ -10,15 +10,15 @@ numb_symbols = int(input("How many symbols should the password have? "))
 
 your_password = []
 
-for letter in range(numb_letters):
+for x in range(numb_letters):
     random_letters = random.choice(letters)
     your_password.append(random_letters)
 
-for number in range(numb_numbers):
+for x in range(numb_numbers):
     random_numbers = random.choice(numbers)
     your_password.append(random_numbers)
-    
-for symbol in range(numb_symbols):
+
+for x in range(numb_symbols):
     random_symbols = random.choice(symbols)
     your_password.append(random_symbols)
 
