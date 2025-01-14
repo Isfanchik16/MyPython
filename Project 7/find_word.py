@@ -96,11 +96,11 @@ if lives >0:
 
 else:
     print(""" 
-         Y   Y   OOO   U   U       L       OOO   SSS   EEEEE |
-          Y Y   O   O  U   U       L      O   O  S      E    |
-           Y    O   O  U   U       L      O   O   SSS   EEEE |
-           Y    O   O  U   U       L      O   O      S  E    |
-           Y     OOO    UUU        LLLLL   OOO   SSS   EEEEE .
+         Y   Y   OOO   U   U      L      OOO   SSS   EEEEE |
+          Y Y   O   O  U   U      L     O   O  S     E     |
+           Y    O   O  U   U      L     O   O   SSS  EEEE  |
+           Y    O   O  U   U      L     O   O     S  E     |
+           Y     OOO    UUU       LLLLL  OOO   SSS   EEEEE .
     """)
     print(f"The word was '{random_choice}'")
     
