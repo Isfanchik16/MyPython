@@ -71,7 +71,7 @@ while lives !=0:
     guess_letter = input("Guess a letter >>").lower()
 
     if guess_letter in unknown_word:
-        print(f"You have alread guessed this {guess_letter} letter!")
+        print(f"You have already guessed this '{guess_letter}' letter!")
 
     for x in range(len(random_choice)):
         if random_choice[x] == guess_letter:
@@ -93,7 +93,7 @@ if lives >0:
            Y    O   O  U   U     WW WW  O   O  N  NN  |
            Y     OOO    UUU      W   W   OOO   N   N  .
     """)
-    
+
 else:
     print(""" 
          Y   Y   OOO   U   U       L       OOO   SSS   EEEEE |
