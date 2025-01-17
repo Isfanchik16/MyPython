@@ -1,1 +1,1 @@
-My All Mini Projects in Python
+My All Mini Projects in Python.
