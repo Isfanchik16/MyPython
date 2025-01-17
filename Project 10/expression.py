@@ -31,6 +31,9 @@ while is_running:
         print(f"You chose '**' method and the outcome is {square(value1,value2)}")
     else:
         print("Unknown method!")
+
     quit = input("Do you wanna calculate again? (Yes or No) : ").lower()
-    if quit == "yes":is_running = True
-    else:is_running=False
+    if quit == "yes":
+        is_running = True
+    else:
+        is_running= False
