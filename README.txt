@@ -18,4 +18,4 @@ Explore a variety of **12 unique projects**, each neatly organized in its own fo
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/mini-python-projects.git
+   git clone https://github.com/your-username/mini-python-projects.git.
