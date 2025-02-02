@@ -11,10 +11,10 @@ def calculate_gpa(grade):
         elif x.upper() == 'D0': gpa +=1.0
         elif x.upper() == 'F':  gpa +=0.0
     return round(gpa/len(grade),2)
-
-your_grade=[]
-num_sub = int(input("How many subjects did you have in Uni? "))
-for x in range(num_sub):
-    your_grade +=[input(f"Your {x+1} grade: ")]
+your_grade = [input(f"Your {i+1} grade: ") for i in range(int(input("How many subjects did you have in Uni? ")))]
 print(f"Overall Your GPA is {calculate_gpa(your_grade)}")
         
+
+
+
+
