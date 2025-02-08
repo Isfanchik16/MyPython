@@ -1,3 +1,5 @@
+# Insertion Sort Implementation
+# Time: O(n^2), Space: O(1)
 def insertion_sort(lst):
     for x in range(1,len(lst)):
         while lst[x-1] > lst[x] and x>0:
