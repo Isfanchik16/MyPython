@@ -9,4 +9,32 @@ def quick_sort(arr):
         if pivot >x:left.append(x)
         else:right.append(x)
     return quick_sort(left)+[pivot]+quick_sort(right)
-print(quick_sort([10,1,5,8,2,6]))
+
+res=[]
+words=["Hello","dad","qwwewm"]
+lst = [
+    "qwertyuiop",
+    "asdfghjkl",
+    "zxcvbnm",
+]
+hashmap={}
+
+
+for i in range(len(lst)):
+    for j in lst[i]:
+        hashmap[j] = i
+for word in words:
+    prev=0
+    valid=True
+    saved = word
+    word = word.lower()
+    for letter in word:
+        if prev==0:
+            prev = hashmap[letter]
+        else:
+            if prev !=hashmap[letter]:
+                valid =False
+                break 
+    if valid:
+        res.append(saved)
+print(res)
