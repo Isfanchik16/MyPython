@@ -38,4 +38,28 @@ print(findqW(["qwert","poiu","qsc","zxcv","qwertyum"]))
     
 
 
+def setfun(str1):
+    hashlst = []
+    for x in str1:
+        if x not in hashlst:
+            hashlst.append(x)
+    return "".join(x for x in hashlst)
+print(setfun("Abcda"))
+
+def removeDuplicates(nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        s=set(nums)
+        nums.clear()
+        for x in s:
+            nums.append(x)
+        print(nums)
+        return len(nums)
         
+print(removeDuplicates([0,0,1,1,1,2,2,3,3,4]))
+
+
+
+    
